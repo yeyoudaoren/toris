@@ -1,0 +1,21 @@
+{
+    "name": "yeyoudaoren/trois",
+    "description": "trois && duex",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yeyoudaoren",
+            "email": "yeyoudaoren@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php":">=5.6"
+    },
+    "autoload": {
+      "psr-4": {
+        "Trois\\Library":"src/Trois/Library"
+      }
+    }
+}
